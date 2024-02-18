@@ -20,15 +20,12 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  #page3 .about h3 {
-    font-size: 1.5rem;
-  }
-  
-  #page3 .about p {
-    font-size: 0.9rem;
-    line-height: 1.5rem;
+  #page3 .about .matter {
+    max-height: 200px;
+    overflow: auto;
   }
 }
+
 #page {
     position: relative;
     height: 100vh;
